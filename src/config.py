@@ -1,6 +1,4 @@
 
-from os import curdir
-
 
 keyword = {
     # logic
@@ -177,6 +175,8 @@ pua_word = {
     "反哺":"return",
     "组合拳":"list",
 
+    "至少":">=",
+    "至多":"<=",
     "迭代":"for",
     "细分":"zip",
     "对齐":"==",
