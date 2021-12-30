@@ -4,7 +4,7 @@ PUA Programming Language written in Python.
 
 ## Installation
 ```
-git clone git@github.com:zhaoyang97/pua-lang.git
+git clone https://github.com/zhaoyang97/pua-lang.git
 cd pua-lang
 pip install . 
 ```
