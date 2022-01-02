@@ -3,12 +3,14 @@ from setuptools import setup, find_packages
 
 setup(
     name='pua-lang',
-    version='0.1.3',
+    summary='PUA Programming Language written in Python.',
+    version='0.1.4',
     author='zy',
     author_email='consolelogi@outlook.com',
     install_requires = ["setuptools"],
     include_package_data = True,
     packages=find_packages(exclude=['test']),
+    license='MIT license',
     url = 'https://github.com/fivezy/pua-lang',
     entry_points = {
         'console_scripts': [
