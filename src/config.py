@@ -205,7 +205,7 @@ def md_generater(m=None):
     """Auto generate markdown file
 
     Args:
-        maps: list of word map
+        m: word map. None will clear keyword_map.md
     """
     import os.path
     cur_path = os.path.dirname(__file__)

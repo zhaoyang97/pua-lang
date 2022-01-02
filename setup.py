@@ -5,7 +5,7 @@ extra_modules = {}
 
 setup(
     name='pua-lang',
-    version='0.0.1',
+    version='0.1.2',
     author='zy',
     author_email='consolelogi@outlook.com',
     install_requires = ["setuptools"],
