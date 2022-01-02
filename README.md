@@ -2,12 +2,19 @@
 # pua-lang
 PUA Programming Language written in Python.
 
+
 ## Installation
 ```
 git clone https://github.com/zhaoyang97/pua-lang.git
 cd pua-lang
 pip install .  # or "python setup.py install"
 ```
+
+PUA-lang has been released on pypi. Install it by running :arrow_down:. (Examples won't be downloaded.
+```
+pip install pua-lang
+```
+
 
 ## Try pua-lang
 
