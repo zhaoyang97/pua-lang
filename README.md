@@ -6,7 +6,7 @@ PUA Programming Language written in Python.
 ```
 git clone https://github.com/zhaoyang97/pua-lang.git
 cd pua-lang
-pip install .  # python setup.py install
+pip install .  # or "python setup.py install"
 ```
 
 ## Try pua-lang
@@ -31,4 +31,4 @@ pua-lang完全基于python，将python关键词替换为pua-lang中的关键词�
 
 
 ## Design your OWN programming language based on this repo
-将`src/config.py`中的[关键词映射](src/config.py)改为自己的字典，然后执行`pip install . `，就可以用自己设计的语言编程了。试试精灵语/祖安语/府文？
+将`src/config.py`中的[关键词映射](src/config.py)改为自己的字典，然后执行`pip install . `，就可以用自己设计的语言编程了。试试精灵语/祖安语/符文/波吉语？
