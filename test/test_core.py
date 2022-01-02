@@ -1,17 +1,11 @@
-
 import unittest
 import os.path
 import tokenize
 
-# Adds project directory to python modules path.
-import sys
-sys.path.append('projects\\cnpy')
-
 from src.core import translate_code, translate_file, run_file
-from src.config import keyword_map
 
 
-class TestStringMethods(unittest.TestCase):
+class TestCoreMethods(unittest.TestCase):
 
     def __init__(self, methodName: str = ...) -> None:
         super().__init__(methodName=methodName)
